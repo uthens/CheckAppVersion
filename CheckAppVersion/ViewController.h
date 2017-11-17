@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *btnCheckAppVersion;
+@property (strong, nonatomic) IBOutlet UILabel *lblShowMoreInfo;
 
 @end
 
